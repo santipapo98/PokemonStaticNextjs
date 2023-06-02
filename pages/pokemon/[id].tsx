@@ -34,10 +34,6 @@ interface Props {
         }
     }
 
-    useEffect(() => {
-        console.log("USE EFFECT")
-    }, [])
-
   return (
     <Layout title={pokemon.name}>
         <Grid.Container css={{ marginTop: '5px'}} gap={2}>

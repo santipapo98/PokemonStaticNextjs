@@ -15,7 +15,6 @@ const toggleFavorite = (id: number) => {
 }
 
 const existInFavorites = (id: number) : boolean => {
-    console.log(typeof window)
 
     if (typeof window === "undefined") return false;
 
